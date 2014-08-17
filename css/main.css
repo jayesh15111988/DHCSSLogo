@@ -64,10 +64,6 @@ video {
     vertical-align: middle;
 }
 
-
-
-
-
 fieldset {
     border: 0;
     margin: 0;
@@ -96,22 +92,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -225,9 +205,9 @@ textarea {
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -260,7 +240,6 @@ textarea {
     /*
      * Don't show links for images, or javascript/internal links
      */
-
     .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
@@ -305,119 +284,132 @@ textarea {
 
 /* Actual CSS for Duet Health logo design */
 div {
-    display:inline-block;
-    font-size:160%;
+    display: inline-block;
+    font-size: 160%;
 }
+
 .duetText {
-    margin-left:-80px;
+    margin-left: -80px;
     /* purple/Violet */
-    color:#28275b;
+    color: #28275b;
 }
+
 .healthText {
 
-    margin-left:10px;
+    margin-left: 10px;
     /* Green Color again */
-    color:#00b971;
+    color: #00b971;
 }
+
 .patientImage {
-    border-radius:50%;
-    margin-bottom:100px;
-    position:absolute;
-    height:17px;
-    width:17px;
+    border-radius: 50%;
+    margin-bottom: 100px;
+    position: absolute;
+    height: 17px;
+    width: 17px;
 }
+
 .greenBody {
     /*Green color*/
-    background-color:#00b971;
-    border:2px solid white;
-    z-index:200;
-    margin-top:4px;
+    background-color: #00b971;
+    border: 2px solid white;
+    z-index: 200;
+    margin-top: 4px;
 }
+
 .violetBody {
-    margin-top:6px;
-    margin-left:13px;
-    z-index:-200;
+    margin-top: 6px;
+    margin-left: 13px;
+    z-index: -200;
     /*Violet blue like color*/
-    background-color:#28275b;
+    background-color: #28275b;
 
 }
+
 .upperSection {
-    border-radius:50%;
-    height:18px;
-    width:18px;
-    margin-top:-18px;
-    position:absolute;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    margin-top: -18px;
+    position: absolute;
 }
+
 .firstPart {
-    margin-left:-5px;
-    background-color:#00b971;
+    margin-left: -5px;
+    background-color: #00b971;
     /* height:13px;
      width:18px;
      border-radius: 0 18px 18px 18px;*/
 }
+
 .middlePart {
     /*visibility:hidden;*/
-    margin-left:10px;
-    background-color:#00b971;
-    height:18px;
-    width:11px;
+    margin-left: 10px;
+    background-color: #00b971;
+    height: 18px;
+    width: 11px;
     border-radius: 12px 6px 0 12px;
 }
+
 .lastPart {
-    height:18px;
-    width:11px;
+    height: 18px;
+    width: 11px;
     border-radius: 0 11px 11px 6px;
-    margin-left:24px;
-    background-color:#28275b;
-}
-.PlusSignHorizontalBar {
-    position:absolute;
-    width:16px;
-    height:3px;
-    margin-top:-10px;
-    margin-left:14px;
-    background-color:white;
-}
-.plusSign {
-    margin-top:40px;
-}
-.horizontalGreenFiller {
-    position:absolute;
-    height:5px;
-    width:10px;
-    margin-top:-5px;
-    margin-left:5px;
-    z-index:200;
-    /* Green color again */
-    /* Bar which connects two circle and eliminates weird gap between   two */
-    background-color:#00b971;
+    margin-left: 24px;
+    background-color: #28275b;
 }
 
-.mainParentLevelParagraph{
+.PlusSignHorizontalBar {
+    position: absolute;
+    width: 16px;
+    height: 3px;
+    margin-top: -10px;
+    margin-left: 14px;
+    background-color: white;
+}
+
+.plusSign {
+    margin-top: 40px;
+}
+
+.horizontalGreenFiller {
+    position: absolute;
+    height: 5px;
+    width: 10px;
+    margin-top: -5px;
+    margin-left: 5px;
+    z-index: 200;
+    /* Green color again */
+    /* Bar which connects two circle and eliminates weird gap between   two */
+    background-color: #00b971;
+}
+
+.mainParentLevelParagraph {
 
     position: fixed;
     top: 50%;
     left: 50%;
 }
 
-.logoMainImage{
+.logoMainImage {
 
     margin-left: -130px;
 }
-.mainParentDivContainer{
-    background-color: #ffffff ;
- margin-top: -15px;
+
+.mainParentDivContainer {
+    background-color: #ffffff;
+    margin-top: -15px;
     margin-left: -130px;
     height: 80px;
     width: 280px;
 
-
 }
-.mainImage{
+
+.mainImage {
     margin-left: 10px;
     margin-top: 15px;
 }
 
-body{
-background-color: #00b971;
+body {
+    background-color: #00b971;
 }
